@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.flatpages',
     'widget_tweaks',
+    'oscarapi',
+    'mycustomapi',
 ] + get_core_apps()
 
 SITE_ID = 1
