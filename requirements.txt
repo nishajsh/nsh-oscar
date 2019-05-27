@@ -1,3 +1,4 @@
 dj_database_url
 django-oscar
 django-oscar-api
+psycopg2-binary
