@@ -33,6 +33,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Email server
+EMAIL_HOST = os.environ['EMAIL_HOST']
+EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
+EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
+EMAIL_PORT = '2525'
+
 
 # Application definition
 
