@@ -14,7 +14,7 @@ User = get_user_model()
 class UserSerializer(OscarModelSerializer):
     class Meta:
         model = User
-        fields = ('first_name', 'last_name', 'email')
+        fields = ('first_name', 'last_name', 'email', 'id')
 
 
 class UserList(generics.ListAPIView):
